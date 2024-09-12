@@ -1,0 +1,106 @@
+.header-our-pets {
+  background-color: #ffffff;
+  position: static;
+  width: 100%;
+  height: 120px;
+}
+
+.container.centered {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  color: #545454;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container.centered a,
+h1,
+.logo-subtitle {
+  color: #545454;
+}
+
+.nav-link.active-page a {
+  color: #292929;
+}
+
+main {
+  width: 100%;
+}
+
+.pets-list {
+  width: 100%;
+  height: 1342px;
+  background-color: #f6f6f6;
+}
+
+.pets-container {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.pets-container .pets-content {
+  height: 1162px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-container {
+  width: 100%;
+  height: 930px;
+  /* border: 2px solid brown; */
+  padding: 15px 0;
+  display: grid;
+  gap: 30px 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pagination {
+  width: 340px;
+  height: 52px;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination button:nth-child(1),
+.pagination button:nth-child(2) {
+  border-color: #cdcdcd;
+}
+
+.pagination button:nth-child(3) {
+  background-color: #f1cdb3;
+}
+
+.pagination button:nth-child(1) h4,
+.pagination button:nth-child(2) h4 {
+  color: #cdcdcd;
+}
+
+footer.contacts-our-pets {
+  width: 100%;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.centered-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
